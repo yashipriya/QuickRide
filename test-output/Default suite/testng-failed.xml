@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.quickride.scripts.RidesTest"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.quickride.scripts.RidesTest">
+        <methods>
+          <include name="testCancelledStsRider"/>
+          <include name="testScheduledStatusRider"/>
+          <include name="testPassengerCancelStatus"/>
+          <include name="testCompletedStatusPassenger"/>
+          <include name="testRequestedStatusPassenger"/>
+          <include name="testRequestedStatusRider"/>
+          <include name="testStartedStatusPassenger"/>
+          <include name="testCancelledStsPassenger"/>
+          <include name="testStartedStatusRider"/>
+          <include name="setUp"/>
+          <include name="testRiderAcceptsPassengerCancelsSts"/>
+          <include name="testCompletedStatusRider"/>
+          <include name="tearDown"/>
+          <include name="testScheduledStatusPassenger"/>
+          <include name="setobjects"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.RidesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

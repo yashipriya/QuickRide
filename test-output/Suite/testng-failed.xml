@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="com.quickride.baselib.QRTestngListener"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.quickride.scripts.RidesTest">
+        <methods>
+          <include name="testCancelledStsRider"/>
+          <include name="testScheduledStatusRider"/>
+          <include name="testPassengerCancelStatus"/>
+          <include name="testCompletedStatusPassenger"/>
+          <include name="testRequestedStatusPassenger"/>
+          <include name="testRequestedStatusRider"/>
+          <include name="testStartedStatusPassenger"/>
+          <include name="testCancelledStsPassenger"/>
+          <include name="testStartedStatusRider"/>
+          <include name="testRiderAcceptsPassengerCancelsSts"/>
+          <include name="testCompletedStatusRider"/>
+          <include name="testScheduledStatusPassenger"/>
+          <include name="setobjects"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.RidesTest -->
+      <class name="com.quickride.scripts.VehicleCustomisationTest">
+        <methods>
+          <include name="testFare"/>
+          <include name="testSupportBike"/>
+          <include name="testDefaultVehicleAdded"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.VehicleCustomisationTest -->
+      <class name="com.quickride.scripts.NotificationsTest">
+        <methods>
+          <include name="testRiderStartedNoti"/>
+          <include name="testRiderStartedCancelled"/>
+          <include name="testNotiReject"/>
+          <include name="testNotiPassengerJoinsCancelsAfterStart"/>
+          <include name="testPassengerJoinsCancels"/>
+          <include name="testNotiDeleteBySwipe"/>
+          <include name="testRiderPassengerJoinNoti"/>
+          <include name="testNotiCountTxt"/>
+          <include name="testNotiDeletedLongPress"/>
+          <include name="testNotiProfile"/>
+          <include name="testRideNotiPassengerJoinsCancels"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.NotificationsTest -->
+      <class name="com.quickride.scripts.RideViewTest">
+        <methods>
+          <include name="testCreateMultipleRiders"/>
+          <include name="testPassengerCheckIn"/>
+          <include name="testpassengercancelRide"/>
+          <include name="testLocation"/>
+          <include name="testStartRide"/>
+          <include name="testGroupChatIcn"/>
+          <include name="testPassengerCheckOut"/>
+          <include name="testRiderCancelRide"/>
+          <include name="testRiderStopRide"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.RideViewTest -->
+      <class name="com.quickride.scripts.UserConfigTest">
+        <methods>
+          <include name="testChangePassword"/>
+          <include name="testUserProfileSocialLinks"/>
+          <include name="testUserupdating"/>
+          <include name="testUserDifferentDevices"/>
+          <include name="testUsersetting"/>
+          <include name="testForgetPassword"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.UserConfigTest -->
+      <class name="com.quickride.scripts.RechargeEncashTest">
+        <methods>
+          <include name="testBillingZeroPricing"/>
+          <include name="testRechargeJoinRide"/>
+          <include name="testBillingCustomisedPricing"/>
+          <include name="testEncashAmountShare"/>
+          <include name="testEncashAmountShareLater"/>
+          <include name="testRecharge"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.RechargeEncashTest -->
+      <class name="com.quickride.scripts.GroupChatTest">
+        <methods>
+          <include name="testOfflineGroupChat"/>
+          <include name="testGroupChat"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.GroupChatTest -->
+      <class name="com.quickride.scripts.RideScheduleTest">
+        <methods>
+          <include name="testRdrRejectsPassngr"/>
+          <include name="testUpcomingRequested"/>
+          <include name="testOffrRdCurrentLoc"/>
+          <include name="testReqstRdCurrentLoc"/>
+          <include name="testMoreCarCapacitySeats"/>
+          <include name="testRdrRejectsPassngrSrchRider"/>
+          <include name="testSelectRide"/>
+          <include name="testMyRidesFavourite"/>
+          <include name="testCarCapacityCancelRide"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.RideScheduleTest -->
+      <class name="com.quickride.scripts.FeedbackTest">
+        <methods>
+          <include name="testRatingFeedback"/>
+          <include name="testratingFeedback"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.FeedbackTest -->
+      <class name="com.quickride.scripts.NewUserRegTest">
+        <methods>
+          <include name="testCloseReOpenQR"/>
+          <include name="testSignUpSameUser"/>
+          <include name="testLoginWrongPwd"/>
+          <include name="testLogoutReLogin"/>
+          <include name="testNewUserSignUPProfile"/>
+          <include name="testNewUserSignUP"/>
+          <include name="testSignUpErrCode"/>
+          <include name="testSignUpIncomplete"/>
+          <include name="testLogoutNoVerifyQuickRide"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.NewUserRegTest -->
+      <class name="com.quickride.scripts.RideMatchConstraintsTest">
+        <methods>
+          <include name="testSameGender"/>
+          <include name="testSameCompany"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.RideMatchConstraintsTest -->
+      <class name="com.quickride.scripts.SocialGuestTest">
+        <methods>
+          <include name="testFBLogin"/>
+          <include name="testGuestSignUp"/>
+          <include name="testLoginOthrUser"/>
+        </methods>
+      </class> <!-- com.quickride.scripts.SocialGuestTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
